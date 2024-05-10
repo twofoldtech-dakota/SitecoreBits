@@ -1,6 +1,9 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
+import { cn } from "@/lib/utils";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Me",
@@ -32,13 +35,16 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+        As a Sitecore-certified developer with 12 years of experience developing Sitecore solutions, I’ve launched this blog to share the knowledge I’ve accumulated. It’s a platform for me to explore and discuss emerging trends and learnings.
+        <br />
+        <br />
+        My passion for fullstack development often leads me to tinker with projects in my free time, which inspired me to develop this streamlined blog utilizing Next.js, which I plan to continue to tinker on. With Sitecore’s progressive shift towards XM Cloud, I find myself at the crossroads of my Sitecore and fullstack expertise. I’m thrilled about the prospect of blending these two realms and am eager to share this journey with you.
+        <br />
+        <br />
+        To checkout the source code for this blog, visit my <a className={cn(buttonVariants({ variant: "link" }), "py-0 px-0 text-lg")} href="https://github.com/twofoldtech-dakota/SitecoreBits">Github</a> repository.
+        <br />
+        <br />
+        Contact me <a className={cn(buttonVariants({ variant: "link" }), "py-0 px-0 text-lg")} href="mailto:dakota@twofold.tech">here</a>.
         </p>
       </div>
     </div>
