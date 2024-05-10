@@ -21,14 +21,14 @@ export default async function AboutPage() {
       <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
         <div className="min-w-48 max-w-48 flex flex-col gap-2">
           <Avatar className="h-48 w-48">
-            <AvatarImage src="/avatar.png" alt={siteConfig.author} />
-            <AvatarFallback>JC</AvatarFallback>
+            <AvatarImage src="/avatar.jpg" alt={siteConfig.author} />
+            <AvatarFallback>DS</AvatarFallback>
           </Avatar>
           <h2 className="text-2xl font-bold text-center break-words">
             {siteConfig.author}
           </h2>
           <p className="text-muted-foreground text-center break-words">
-            Software Developer
+            Sitecore Developer
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">

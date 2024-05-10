@@ -15,8 +15,7 @@ export default function Home() {
             Hello, I&apos;m Dakota
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            Welcome to my blog template. Built using tailwind, shadcn, velite
-            and Nextjs 14.
+            Welcome to my blog where I share my experiences and knowledge on Sitecore development by providing tutorials, tips, and tricks. Let's level up together!
           </p>
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
